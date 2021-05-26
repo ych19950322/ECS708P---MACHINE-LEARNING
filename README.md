@@ -9,13 +9,15 @@
 
 ### 简单思路：
 
-MLEnd数据集是一个语音数据集，分为4种不同语气读出数字。 具体在MLEnd_starter_kit里面有介绍。本项目主要任务是做语调分类。
+#### 推荐在Google Colab上进行实验，以防函数报错。 training数据集过大无法上传。
 
-在基本解决方案中，建立一个模型来预测短音频片段的音调。 主要使用的语音特征是是MFCC和Log-Mel，相比来说MFCC更加重要。
+MLEnd数据集是一个语音数据集，分为4种不同语气读出数字。 具体在MLEnd_starter_kit里面有介绍。本项目主要任务是做语调分类。<br><br>
 
-在高级解决方案中，建立了一个模型，该模型可以在短时间内识别数字。 主要特征是MFCC。
+在基本解决方案中，建立一个模型来预测短音频片段的音调。 主要使用的语音特征是是MFCC和Log-Mel，相比来说MFCC更加重要。<br><br>
 
-<br><br><br>
+在高级解决方案中，建立了一个模型，该模型可以在短时间内识别数字。 主要特征是MFCC。<br><br><br>
+
+
 ECS708P mini-project submission
 The mini-project consists of two components:
 
