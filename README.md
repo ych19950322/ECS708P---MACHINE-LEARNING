@@ -9,7 +9,9 @@
 
 ### 简单思路：
 
-在基本解决方案中，建立一个模型来预测短音频片段的音调。 主要使用特征是是MFCC和Log-Mel，相比来说MFCC更加重要。
+MLEnd数据集是一个语音数据集，分为4种不同语气读出数字。 具体在MLEnd_starter_kit里面有介绍。本项目主要任务是做语调分类。
+
+在基本解决方案中，建立一个模型来预测短音频片段的音调。 主要使用的语音特征是是MFCC和Log-Mel，相比来说MFCC更加重要。
 
 在高级解决方案中，建立了一个模型，该模型可以在短时间内识别数字。 主要特征是MFCC。
 
@@ -20,4 +22,4 @@ The mini-project consists of two components:
 Basic solution [6 marks]: Using the MLEnd dataset, build a model that predicts the intonation of a short audio segment.
 Advanced solution [10 marks]: There are two options. <br><br>
 (i) Formulate a machine learning problem that can be attempted using the MLEnd dataset and build a solution model (e.g. identify a numeral in a short sequence). <br><br>
-(ii) Create a product that uses the functionality provided by a model trained on the MLEnd dataset (e.g. identify a number based on the identification of individual numerals).<br>
+(ii) Create a product that uses the functionality provided by a model trained on the MLEnd dataset (e.g. identify a number based on the identification of individual numerals).
